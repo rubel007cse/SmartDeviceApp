@@ -29,4 +29,36 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    void one(View v){
+
+        Intent go = new Intent(MainActivity.this, Numbers.class);
+        go.putExtra("mykey",1);
+        startActivity(go);
+
+    }
+
+    void two(View v){
+
+        Intent go = new Intent(MainActivity.this, Numbers.class);
+        go.putExtra("mykey",2);
+        startActivity(go);
+
+    }
+
+
+    void three(View v){
+
+        Intent go = new Intent(MainActivity.this, Numbers.class);
+        go.putExtra("mykey",3);
+        startActivity(go);
+
+    }
+
+    void four(View v){
+        Intent go = new Intent(MainActivity.this, Numbers.class);
+        go.putExtra("mykey",4);
+        startActivity(go);
+
+    }
+
 }

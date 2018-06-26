@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailsOfSEU"></activity>
+        <activity android:name=".DetailsOfSEU" />
+        <activity android:name=".Numbers"></activity>
     </application>
 
 </manifest>
