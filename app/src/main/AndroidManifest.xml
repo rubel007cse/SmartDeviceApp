@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailsOfSEU" />
-        <activity android:name=".Numbers"></activity>
+        <activity android:name=".Numbers" />
+        <activity android:name=".Varsities"></activity>
     </application>
 
 </manifest>

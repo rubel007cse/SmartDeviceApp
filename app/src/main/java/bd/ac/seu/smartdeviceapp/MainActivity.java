@@ -17,6 +17,29 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        Button list = findViewById(R.id.list);
+        list.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                startActivity(new Intent(
+                        MainActivity.this,
+                        Varsities.class
+                ));
+
+
+            }
+        });
+
+
+
+
+
+
+
+
+
     }
 
 
@@ -60,5 +83,24 @@ public class MainActivity extends AppCompatActivity {
         startActivity(go);
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
